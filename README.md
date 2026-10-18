@@ -1,6 +1,6 @@
-# Learning SQL — Your store
+# Learning SQL
 
-A hands-on project with 7 levels and 21 challenges. The SQLite database contains fictional data: 6 customers, 6 products, 8 orders and 12 order items. No server or Python installation is required.
+My SQL learning journey through 7 levels and 21 hands-on challenges, using a fictional online store. The SQLite database contains fictional data: 6 customers, 6 products, 8 orders and 12 order items. No server or Python installation is required.
 
 ## Get started
 
@@ -26,13 +26,23 @@ Move on when you can explain your query in your own words. Track completion in `
 
 ## Learning path
 
-1. First queries: SELECT and FROM.
-2. Filtering and sorting: WHERE, AND, ORDER BY and LIMIT.
-3. Text, NULLs and calculations: LIKE, DISTINCT, IS NULL and aliases.
-4. Summaries: COUNT, AVG, GROUP BY and HAVING.
-5. Joining tables: JOIN and LEFT JOIN.
-6. Final project: a store sales report.
-7. Changing data safely: INSERT, UPDATE, DELETE and transactions.
+| Level | Topic | Start here |
+| --- | --- | --- |
+| 1 | SELECT and FROM | [First queries](levels/01-first-queries/explanation.md) |
+| 2 | WHERE, AND, ORDER BY and LIMIT | [Filtering and sorting](levels/02-filtering-and-sorting/explanation.md) |
+| 3 | LIKE, DISTINCT, IS NULL and aliases | [Text, NULLs and calculations](levels/03-text-nulls-and-calculations/explanation.md) |
+| 4 | COUNT, AVG, GROUP BY and HAVING | [Summaries](levels/04-summaries/explanation.md) |
+| 5 | JOIN and LEFT JOIN | [Joining tables](levels/05-joining-tables/explanation.md) |
+| 6 | Store sales analysis | [Final project](levels/06-final-project/explanation.md) |
+| 7 | INSERT, UPDATE, DELETE and transactions | [Changing data safely](levels/07-changing-data-safely/explanation.md) |
+
+## Project structure
+
+- `data/`: ready-to-use SQLite database and setup script.
+- `levels/`: explanations, challenges and my saved answers.
+- `solutions/`: reference queries and expected results for each level.
+- [progress.md](progress.md): learning checklist and notes.
+
 
 ## Data model
 
